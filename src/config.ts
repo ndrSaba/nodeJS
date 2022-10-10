@@ -8,4 +8,4 @@ const config = {
   GITHUB_CALLBACK_URL: process.env.GITHUB_CALLBACK_URL || missingSetting,
 };
 
-export default config
+export default config;
