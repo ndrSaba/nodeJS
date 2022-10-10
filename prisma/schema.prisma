@@ -19,5 +19,6 @@ model Planet{
   photoFilename String?   @db.VarChar(255)
   createdAt     DateTime  @default(now())
   updateAt      DateTime  @updatedAt
+  createdBy     String?  @db.VarChar(255)
+  updatedBy     String?  @db.VarChar(255)
 }
-
